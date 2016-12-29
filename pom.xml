@@ -176,6 +176,18 @@
         </dependency>
 
         <dependency>
+            <groupId>com.brightd</groupId>
+            <artifactId>ibpmdomain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.brightd</groupId>
+            <artifactId>ibpmservice</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
             <version>${dubbo.version}</version>

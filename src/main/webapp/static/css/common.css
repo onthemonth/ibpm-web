@@ -7,13 +7,13 @@ body{font-family: "微软雅黑";font-size: 14px;margin: 0;padding: 0;background
 .fl_right{float: right}
 .fl_left{float: left;}
 
-.login_main{width: 500px;height: 300px;border: 1px solid #E5E5E5;margin:200px auto auto;background:url(../../images/bacimg.png)no-repeat;}
+.login_main{width: 500px;height: 300px;border: 1px solid #E5E5E5;margin:200px auto auto;}
 .login_view{padding: 100px; width: 300px;height: auto;}
 .main_div{width: 300px;height: 30px;line-height: 30px;}
 .main_div input{width:200px ;height: 22px;}
 .bottom_sub{width:60px;height: 30px;line-height: 30px;text-align: center;border-radius:2px;background-color: #0091F6;color: #fff;cursor: pointer;}
 
-.container{width: 600px;height: 600px;margin: auto;margin-top: 200px;padding:0 50px;overflow: auto;background: url(../../images/bacImg1.png);}
+.container{width: 600px;height: 600px;margin: auto;margin-top: 200px;padding:0 50px;overflow: auto;}
 .welcome{height: 30px;width: 100%;text-align: right;padding-top: 20px;}
 .apply_main{width:400px; margin: 0 auto;text-align: center;margin-top: 100px;}
 .apply_bot{width:100%;height: 30px;margin-top: 20px;}
@@ -23,7 +23,7 @@ table th,td{border: 1px solid #000000}
 table td .margin_5{margin: 5px auto;}
 
 #bk_layer {position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.5);z-index: 999;overflow-y: auto;}
-.layer_div{width: 350px;height: 200px;margin: 200px auto;padding:30px 60px;overflow-y: auto ;border-radius: 2px;position: relative;background: url(../../images/bacimg.png) no-repeat;}
+.layer_div{width: 350px;height: 200px;margin: 200px auto;padding:30px 60px;background-color:#ffffff;overflow-y: auto ;border-radius: 2px;position: relative}
 .reason{width: 100%;height: auto;line-height: 30px;}
 .agree{width: auto;height: 30px;line-height: 30px;margin-top: 20px;padding: 0 50px;}
 .closeImg{position: absolute;top: 20px;right: 20px; cursor: pointer;}

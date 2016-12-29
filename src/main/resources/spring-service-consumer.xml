@@ -20,19 +20,20 @@
 
 	<dubbo:application name="ibpmweb"/>
 
-    <dubbo:registry id="demoRegistry"  protocol="zookeeper" address="127.0.0.1:2181"/>
+    <!-- 协议 -->
+    <dubbo:protocol name="dubbo"/>
+
+    <dubbo:registry id="ibpmRegistry"  protocol="zookeeper" address="127.0.0.1:2181"/>
 
     <!--
     <dubbo:registry address="multicast://127.0.0.1:1234"/>
     -->
     <!-- 使用监控中心 -->
 
-    <!--
     <dubbo:monitor protocol="registry"/>
     
     <dubbo:consumer check="false" />
 
-    <dubbo:reference id="demoService" interface="com.demo.service.DemoService" check="false" registry="demoRegistry"/>
-    -->
+    <dubbo:reference id="leaveAppService" interface="com.brightd.service.leave.ILeaveAppService" check="false" registry="ibpmRegistry"/>
 
 </beans>

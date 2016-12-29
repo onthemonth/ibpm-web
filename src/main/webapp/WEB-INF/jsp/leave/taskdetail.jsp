@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>任务详情</title>
-    <link rel="stylesheet" href="common.css"/>
+    <link rel="stylesheet" href="/static/css/common.css"/>
 </head>
 <body>
 <div id="bk_layer">
@@ -27,7 +27,7 @@
             <div class="bottom_sub fl_left">不同意</div>
             <div class="bottom_sub fl_left m_lf80">同意</div>
         </div>
-        <img src="../../images/close_img.png" class="closeImg"/>
+        <img src="/static/images/close_img.png" class="closeImg"/>
     </div>
 </div>
 </body>
